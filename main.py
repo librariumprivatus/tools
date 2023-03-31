@@ -1,0 +1,4 @@
+
+
+def tiger():
+	print('TIGER')
