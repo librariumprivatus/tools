@@ -7,7 +7,7 @@ import ImagesList from "./ImageList";
 const CardBook = ({ data }) =>  {
     return (
         <Card className="m-1">
-            <LazyLoadImage src={"/covers/" + data.cover} />
+            <LazyLoadImage src={"/covers/" + data.cover} wrapperClassName={}/>
             <Card.Body>
                 <Card.Title>{data.title}</Card.Title>
             </Card.Body>
